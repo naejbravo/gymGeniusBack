@@ -1,0 +1,40 @@
+{
+  "type": "module",
+  "name": "backend-gymgenius",
+  "version": "1.0.0",
+  "description": "Backend API with Node.js, Express and Firebase",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "dev": "nodemon ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "backend",
+    "api",
+    "node",
+    "express",
+    "firebase"
+  ],
+  "author": "naej",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "firebase": "^9.17.1",
+    "firebase-admin": "^10.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.13"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ByDarrow/GymGenius.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ByDarrow/GymGenius/issues"
+  },
+  "homepage": "https://github.com/ByDarrow/GymGenius#readme"
+}
